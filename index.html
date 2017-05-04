@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui" name="viewport">
     <link rel="stylesheet" href="https://openlayers.org/en/v4.1.1/css/ol.css" type="text/css">
     <link rel="stylesheet" href="main.css" type="text/css">
-    <title>Демо простой чат с помощью nodejs и socket.io</title>
+    <title>Мотоклаб</title>
 </head>
 <body>
 
@@ -91,6 +91,7 @@
     margin-bottom: 15px;
   }
 </style>
+<div class="menu"><ul><li>Главная</li></ul></div><div class="collaps_Menu"></div>
 <div id="map" class="map"></div>
 <div class="modal" id="aboutWidnow">
   <div class="modal-header"><div class="header-title"></div><span class="close">x</span></div>
@@ -152,6 +153,18 @@
               gotoSocket();
               $('#Authorized').hide();
             }
+          }
+        });
+
+        $('.collaps_Menu').on('click', function(){
+          if($(this).hasClass('active')){
+            $('.menu').animate({left: '-280px'});
+            $(this).animate({left: '0'});
+            $(this).removeClass('active');
+          }else {
+            $('.menu').animate({left: 0});
+            $(this).animate({left: '280px'});
+            $(this).addClass('active');
           }
         });
 
