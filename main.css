@@ -1,34 +1,26 @@
-.demo {
-    width: 600px;
-    margin: 20px auto;
-    padding: 10px;
-    color: #4F6B72;
-    font-family: "PT Sans", Verdana, Arial, sans-serif;
-    font-size: 13px;
+body {
+  margin:0;
+  padding: 0; 
+}
+#map {
+  left: 0;
+  /* min-width: 830px; */
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+}
+.ol-attribution {
+  display: none
+}
+.ol-zoom {
+  display: none;
 }
 
-.chat .messages{
-    height: 300px;
-    border: 1px solid #d4d4d4;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    padding: 5px;
-}
-
-.chat .messages .user{
-    color: #B22222;
-}
-
-.chat .message{
-    width: 70%;
-}
-
-.chat .panel{
-    margin-top: 8px;
-}
-
-#message_text{
-    width: 60%;
-    display: inline-block;
-    margin-left: 8px;
+#Authorized .modal-body .form{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  margin: 0 auto;
 }
