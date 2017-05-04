@@ -90,8 +90,15 @@
   .modal .modal-body .form-group {
     margin-bottom: 15px;
   }
+
+  .modal .modal-body .form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    margin: 0 auto;
+  }
 </style>
-<div class="menu"><ul><li>Главная</li></ul></div><div class="collaps_Menu"></div>
+<div class="menu"><ul><li data-element="createEvent">Создать событие</li></ul></div><div class="collaps_Menu"></div>
 <div id="map" class="map"></div>
 <div class="modal" id="aboutWidnow">
   <div class="modal-header"><div class="header-title"></div><span class="close">x</span></div>
@@ -102,6 +109,11 @@
   <div class="modal-header"><div class="header-title">Авторизация</div></div>
   <div class="modal-body"><div class="form"><div class="form-group"><label for="usr">Почта:</label><input class="form-input" id="usr"></div><div class="form-group"><label for="pass">Пароль:</label><input class="form-input" id="pass"></div></div></div>
   <div class="modal-footer"><div class="button" data-action="enter">Войти</div><div class="button" data-action="reg">Зарегистрироваться</div></div>
+</div>
+<div class="modal" id="createEvent">
+  <div class="modal-header"><div class="header-title">Создать</div><div class="header-title"></div><span class="close">x</span></div>
+  <div class="modal-body"><div class="form"><div class="form-group"><label for="usr">Тип:</label><select class="form-input" id="usr"><option>ДТП</option><option>Помощь</option><option>Сбор</option></select></div><div class="form-group"><label for="pass">Описание:</label><textarea class="form-input" id="desc"></textarea></div><div class="form-group"><div class="currLatLong" style="float: left;width: 150px;"></div><div class="button" data-action="setPointInMap" style="margin-top: 15px;">Отметить на карте</div></div></div></div>
+  <div class="modal-footer"><div class="button" data-action="enter">Создать</div></div>
 </div>
 <script src="https://openlayers.org/en/v4.1.1/build/ol.js" type="text/javascript"></script>
 
@@ -141,12 +153,21 @@
                 map.hasFeatureAtPixel(evt.pixel) ? 'pointer' : '';
           });
           map.on('singleclick', function(evt) {
+            if(draw){
+              removeInteraction();
+              $('#createEvent').show();
+              draw = undefined;
+              $('#createEvent').find('.currLatLong').text("Широта: "+ evt.coordinate[0] +" Долгота: "+ evt.coordinate[1] +"");
+            }
             map.forEachFeatureAtPixel(evt.pixel, function (feature, layer) {
               socket.emit("getFeature", feature.get("id"));
             })
           });
         }
 
+        $('.menu').on('click', 'li', function(){
+          $('#' + $(this).data('element')).show();
+        });
         $("#Authorized").on('click', ".button", function(){
           if($(this).data('action') == 'enter'){
             if($("#Authorized").find(".modal-body").find('#usr').val() && $("#Authorized").find(".modal-body").find('#pass').val()){
@@ -156,6 +177,27 @@
           }
         });
 
+        $('#createEvent').on('click', '.button', function(){
+          if($(this).data('action') == 'setPointInMap'){
+            $('.modal').hide();
+            $('.collaps_Menu').click();
+            addInteraction();
+          }
+        });
+        var draw; // global so we can remove it later
+        function addInteraction() {
+          draw = new ol.interaction.Draw({
+            features: features,
+            type: /** @type {ol.geom.GeometryType} */ "Point"
+          });
+          map.addInteraction(draw);
+        }
+        function removeInteraction() {
+          map.removeInteraction(draw);
+          featureOverlay.getSource().forEachFeature(function (feature, layer) {
+            featureOverlay.getSource().removeFeature(feature);
+          });
+        }
         $('.collaps_Menu').on('click', function(){
           if($(this).hasClass('active')){
             $('.menu').animate({left: '-280px'});
@@ -273,6 +315,26 @@
           })
         });
 
+        var features = new ol.Collection();
+        var featureOverlay = new ol.layer.Vector({
+          source: new ol.source.Vector({features: features}),
+          style: new ol.style.Style({
+            fill: new ol.style.Fill({
+              color: 'rgba(255, 255, 255, 0.2)'
+            }),
+            stroke: new ol.style.Stroke({
+              color: '#ffcc33',
+              width: 2
+            }),
+            image: new ol.style.Circle({
+              radius: 7,
+              fill: new ol.style.Fill({
+                color: '#ffcc33'
+              })
+            })
+          })
+        });
+        featureOverlay.setMap(map);
 
         $('.modal').on('click', '.close', function(){
           $(this).parents(".modal").hide();

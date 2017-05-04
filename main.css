@@ -18,13 +18,6 @@ body {
   display: none;
 }
 
-#Authorized .modal-body .form{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 280px;
-  margin: 0 auto;
-}
-
 .menu {
   width:280px;
   position: absolute;
