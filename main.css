@@ -26,6 +26,13 @@ body {
   z-index: 2;
 }
 
+.menu ul {
+  padding: 0;
+}
+.menu ul li {
+  list-style-type: none;
+  padding-left: 20px;
+}
 .collaps_Menu {
   position: absolute;
   width: 38px;
@@ -34,4 +41,8 @@ body {
   left: 0;
   background: url(https://demo.orbismap.com/static/previewer/light/images/mobile_menu.svg) center no-repeat !important;
   z-index: 2;
+}
+
+#Authorized .errorForm {
+  display: none;
 }

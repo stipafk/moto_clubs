@@ -46,6 +46,7 @@
     top: 5px;
     width: 30px;
     font-size: 24px;
+    cursor: pointer;
   }
   .modal .modal-header .header-title {
     height: 100%;
@@ -107,7 +108,7 @@
 </div>
 <div class="modal" id="Authorized">
   <div class="modal-header"><div class="header-title">Авторизация</div></div>
-  <div class="modal-body"><div class="form"><div class="form-group"><label for="usr">Почта:</label><input class="form-input" id="usr"></div><div class="form-group"><label for="pass">Пароль:</label><input class="form-input" id="pass"></div></div></div>
+  <div class="modal-body"><div class="form"><div class="form-group"><label for="usr">Почта:</label><input class="form-input" id="usr"></div><div class="form-group"><label for="pass">Пароль:</label><input class="form-input" id="pass"></div><div class="errorForm"><label for="pass">Ошибка:</label><div class="error"></div></div></div></div>
   <div class="modal-footer"><div class="button" data-action="enter">Войти</div><div class="button" data-action="reg">Зарегистрироваться</div></div>
 </div>
 <div class="modal" id="createEvent">
@@ -123,12 +124,22 @@
     $(document).ready(function () {
         var that = this;
 
-        var auth = false;
-        if(auth){
-          gotoSocket();
-        }else {
-          $('#Authorized').show();
-        }
+        $.ajaxSetup({
+          crossDomain: true
+        });
+
+        $.ajax({
+          type: 'POST',
+          url: 'http://devision12.ru/api/user/auth.php',
+          data: 'action=login',
+          success: function(data){
+            if(data.status == 'login'){
+              gotoSocket();
+            }else {
+              $('#Authorized').show();
+            }
+          }
+        });
 
         function gotoSocket(){
           var socket = io.connect('http://localhost:8008');
@@ -171,8 +182,26 @@
         $("#Authorized").on('click', ".button", function(){
           if($(this).data('action') == 'enter'){
             if($("#Authorized").find(".modal-body").find('#usr').val() && $("#Authorized").find(".modal-body").find('#pass').val()){
-              gotoSocket();
-              $('#Authorized').hide();
+              $.ajax({
+              type: 'POST',
+              url: 'http://devision12.ru/api/user/auth.php',
+              data: {'login': $("#Authorized").find(".modal-body").find('#usr').val(),
+              'pass': $("#Authorized").find(".modal-body").find('#pass').val()},
+              success: function(login){
+                login = JSON.parse(login);
+                if(login.status == "fail"){
+                  $("#Authorized").find(".modal-body").find('.errorForm').show();
+                  $("#Authorized").find(".modal-body").find('.error').text(login.message);
+                  setTimeout(function(){
+                    $("#Authorized").find(".modal-body").find('.error').empty();
+                    $("#Authorized").find(".modal-body").find('.errorForm').hide();
+                  }, 3000);
+                }else if (login.status == "ok"){
+                  gotoSocket();
+                  $('#Authorized').hide();
+                }
+              }
+            });
             }
           }
         });
