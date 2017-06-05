@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1701d725-839c-4452-9392-dd42eb848958" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/Changes.md" afterPath="$PROJECT_DIR$/server/node_modules/mysql/Changes.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/License" afterPath="$PROJECT_DIR$/server/node_modules/mysql/License" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/Readme.md" afterPath="$PROJECT_DIR$/server/node_modules/mysql/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/index.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/Connection.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/Connection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/ConnectionConfig.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/ConnectionConfig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/Pool.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/Pool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolCluster.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolCluster.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolConfig.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolConfig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolConnection.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolConnection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolNamespace.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolNamespace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolSelector.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolSelector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/Auth.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/Auth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/BufferList.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/BufferList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/PacketHeader.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/PacketHeader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/PacketWriter.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/PacketWriter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/Parser.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/Parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/Protocol.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/Protocol.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/ResultSet.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/ResultSet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/SqlString.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/SqlString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/charsets.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/charsets.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/client.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/errors.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/errors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/field_flags.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/field_flags.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/server_status.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/server_status.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/types.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/EofPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/EofPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/Field.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/Field.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/FieldPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/FieldPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/OkPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/OkPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/index.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Handshake.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Handshake.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Ping.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Ping.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Query.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Quit.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Quit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Sequence.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Sequence.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Statistics.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Statistics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/index.js" afterPath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/mysql/package.json" afterPath="$PROJECT_DIR$/server/node_modules/mysql/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="client.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="674">
+              <caret line="520" column="35" lean-forward="false" selection-start-line="520" selection-start-column="35" selection-end-line="520" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/module/club/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="40" column="67" lean-forward="true" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setIte</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/client/module/club/index.php" />
+        <option value="$PROJECT_DIR$/client/client.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="y" value="-7" />
+    <option name="width" value="1934" />
+    <option name="height" value="1054" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moto_clubs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moto_clubs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moto_clubs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moto_clubs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1701d725-839c-4452-9392-dd42eb848958" name="Default" comment="" />
+      <created>1494649579706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1494649579706</updated>
+      <workItem from="1494649580838" duration="6191000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6191000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1934" height="1054" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" column="67" lean-forward="true" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/module/club/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="520" column="35" lean-forward="false" selection-start-line="520" selection-start-column="35" selection-end-line="520" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -28,10 +28,15 @@ body {
 
 .menu ul {
   padding: 0;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none; 
 }
 .menu ul li {
   list-style-type: none;
+  padding: 5px;
   padding-left: 20px;
+  cursor: pointer;
 }
 .collaps_Menu {
   position: absolute;
@@ -41,8 +46,22 @@ body {
   left: 0;
   background: url(https://demo.orbismap.com/static/previewer/light/images/mobile_menu.svg) center no-repeat !important;
   z-index: 2;
+  cursor: pointer;
 }
 
-#Authorized .errorForm {
+#Authorized .errorForm, #Register .errorForm {
   display: none;
+}
+
+#aboutWindow {
+  z-index: 100;
+}
+
+.club-cont {
+  display: table;
+}
+
+.club-cont .club-image, .club-cont .club-name {
+  display: table-cell;
+  vertical-align: middle;
 }
